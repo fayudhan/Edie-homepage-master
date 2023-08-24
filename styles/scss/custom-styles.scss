@@ -1,0 +1,34 @@
+// Custom Colors
+$colors: (
+  "dark": #333,
+  "primary-2": #2d9cdb,
+  "gray": #4f4f4f,
+  "gray-light-2": #828282,
+  "gray-light-3": #e0e0e0,
+  "light-2": #f2f2f2,
+  "success-2": #27ae60,
+  "danger-2": #eb5757,
+  "black-2": #100e1d,
+);
+
+$theme-colors: map-merge($colors, $colors);
+
+$primary: map-get($colors, "primary-2");
+$gray-700: map-get($colors, "gray");
+$gray-light: map-get($colors, "gray-light-2");
+$light: map-get($colors, "light-2");
+$success: map-get($colors, "success-2");
+$danger: map-get($colors, "danger-2");
+$black: map-get($colors, "black-2");
+
+$theme-colors: map-merge($colors, $colors);
+
+@import "../bootstrap-4.6.2/functions";
+@import "../bootstrap-4.6.2/variables";
+
+/* Customizations */
+$font-family-poppins: "Poppins", sans-serif;
+$font-family-base: $font-family-poppins;
+
+/* Bootstrap */
+@import "../bootstrap-4.6.2/bootstrap";

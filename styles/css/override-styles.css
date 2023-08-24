@@ -1,0 +1,294 @@
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.navbar-light .navbar-toggler {
+  color: #fff;
+  background-color: #fff;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='black' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  width: 1.5rem;
+}
+
+/* typography */
+.font-weight-500 {
+  font-weight: 500;
+}
+
+.font-weight-700 {
+  font-weight: 700;
+}
+
+.font-weight-800 {
+  font-weight: 800;
+}
+
+.fsize-0-875 {
+  font-size: 0.875rem;
+}
+
+.fsize-0-625 {
+  font-size: 0.625rem;
+}
+
+.fsize-7-5 {
+  font-size: 0.75rem;
+}
+
+.fsize-1 {
+  font-size: 1rem;
+}
+
+.fsize-1-5 {
+  font-size: 1.5rem;
+}
+
+.fsize-1-125 {
+  font-size: 1.125rem;
+}
+
+.fsize-2-125 {
+  font-size: 2.125rem;
+}
+
+.lh-1-5 {
+  line-height: 1.5;
+}
+
+.lh-200 {
+  line-height: 200%;
+}
+
+/* home */
+/* hero bg */
+#home {
+  padding-top: 5rem;
+}
+
+.hero-bg {
+  background-image: url("../../assets/images/heroImage.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 9.0625rem;
+  border-radius: 1.125rem;
+}
+
+/* padding */
+.pt-6-25 {
+  padding-top: 6.25rem;
+}
+
+/* border */
+.bradius-0-75 {
+  border-radius: 0.75rem !important;
+}
+
+/* button */
+.btn-primary {
+  padding: 0.5rem 1.31rem;
+}
+
+.active {
+  background-color: #2d9cdb !important;
+  color: #fff !important;
+}
+
+/* input */
+#exampleInputEmail1::placeholder {
+  color: #bdbdbd;
+}
+
+/* card */
+.card-p {
+  padding: 3.06rem 2.12rem;
+  padding-right: 3rem;
+  padding-bottom: 1.2rem;
+}
+
+.card-body {
+  padding: 3.06rem 2.12rem;
+  padding-right: 3rem;
+  max-width: 21.3125rem;
+}
+
+.card-title {
+  padding-top: 2.16rem !important;
+}
+
+.icon-wrapper {
+  width: 4.1875rem;
+  height: 4.1875rem;
+  border-radius: 1rem;
+  color: #fff;
+}
+
+.material-symbols-rounded {
+  font-size: 2.25rem;
+  transform: translate(40%, 46%);
+}
+
+/* our works */
+.card-body.article {
+  padding: 0;
+}
+
+.work-card {
+  max-width: 28.0625rem;
+}
+
+.see-more {
+  display: flex;
+  align-items: center;
+}
+
+.trending_flat {
+  font-size: 1.5rem;
+}
+
+.no-translate {
+  transform: none;
+}
+
+/* team photos */
+.team-photos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0.56rem;
+  grid-template-areas:
+    "photo-1 photo-2"
+    "photo-1 photo-3";
+  align-items: center;
+}
+
+.photo {
+  border-radius: 1.5rem;
+}
+
+.photo-1 {
+  grid-area: photo-1;
+  width: 100%;
+  min-width: 11.135rem;
+}
+.photo-2 {
+  grid-area: photo-2;
+  width: 100%;
+  min-width: 9.04719rem;
+  align-self: end;
+}
+.photo-3 {
+  grid-area: photo-3;
+  width: 100%;
+  min-width: 10.14081rem;
+}
+
+.mb-6 {
+  margin-bottom: 6rem;
+}
+
+/* clients */
+.testimonial-photo {
+  width: 100%;
+  max-width: 5.125rem;
+  margin-right: 1.88rem;
+}
+
+@media (min-width: 767px) {
+  .fsize-md-0-875 {
+    font-size: 0.875rem;
+  }
+
+  .card-body {
+    padding: 1rem;
+  }
+
+  .mt-md-9 {
+    margin-top: 9rem;
+  }
+
+  .max-width-md-38 {
+    max-width: 38rem;
+  }
+
+  .hero-bg {
+    height: 12.125rem;
+  }
+
+  .work-card {
+    max-width: 21.0625rem;
+  }
+
+  .see-more {
+    justify-content: end;
+    right: 0;
+    bottom: 3rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-body {
+    min-width: 19.2rem;
+  }
+
+  .fsize-lg-0-78 {
+    font-size: 0.78rem;
+  }
+
+  .fsize-lg-2 {
+    font-size: 2rem;
+  }
+
+  .pl-lg-6 {
+    padding-left: 9.69rem !important;
+  }
+
+  .max-width-lg-h2 {
+    width: 23rem;
+  }
+
+  .navbar-expand-lg {
+    justify-content: space-between;
+  }
+
+  .navbar-collapse {
+    flex-grow: 0;
+  }
+
+  .hero-bg {
+    min-height: 15.6rem;
+  }
+
+  .max-width-lg-p {
+    width: 16rem;
+  }
+
+  .work-card {
+    max-width: 28rem;
+  }
+
+  .max-width-lg-10 {
+    max-width: 10rem;
+  }
+
+  .max-width-lg-18 {
+    max-width: 18rem;
+  }
+
+  .max-width-lg-21 {
+    max-width: 21rem;
+  }
+}
+
+/* 
+width: 20rem; */
+@media (min-width: 1200px) {
+  .hero-bg {
+    min-height: 18.6rem;
+  }
+
+  .max-width-xl-0 {
+    max-width: 0;
+  }
+}
